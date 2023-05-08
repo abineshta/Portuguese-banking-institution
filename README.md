@@ -43,7 +43,7 @@
 
 
 ##  Modelling
-Using this dataset, decision tree classifier model was performed. Initially before performing the modelling, null values were dropped. Another dataframe was made that only contains the categorical columns, so that label encoder can be applied. The dataframe was joined with the one that had all the numerical values. The data was finally splitted to create the testing and training data. From  sklearn model selection the decision tree classifier was performed and then it was fited to the training data. Predictions of both training and testing data was carried out. Minimum samples of 10000 was taken to fit in the decision tree regressor. From sklearn the tree was imported, and plotted the decision tree classifer. Finally a function was created for any user who wish to predict whether the client will subscribe the term deposits.
+Using this dataset, decision tree classifier model was performed. Initially before performing the modelling, null values were dropped. Another dataframe was made that only contains the categorical columns, so that label encoder can be applied. The dataframe was joined with the one that had all the numerical values. The data was finally splitted to create the testing and training data. From  sklearn model selection the decision tree classifier was performed and then it was fited to the training data. Predictions of both training and testing data was carried out. Minimum samples of 10000 was taken to fit in the decision tree classifier. From sklearn the tree was imported, and plotted the decision tree classifer. Finally a function was created for any user who wish to predict whether the client will subscribe the term deposits.
 ## Evaluation performed
 - Confusion matrix
 - Precision score
